@@ -1,0 +1,16 @@
+@startuml overview
+!include ../_C4.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(rnr, "Runner", "A runner that wants to track its progress.")
+System(mob, "Mobile", "Allows runners to track their runs and live an awesome life.")
+System(web, "Web Dashboard", "Allows runners to view their runs and track their progress.")
+Person(trn, "Trainer", "A trainer that provides guidance to the runners")
+
+Rel(rnr, mob, "Track runs")
+Rel(rnr, web, "Track Progress")
+Rel(mob, rnr, "Notifies")
+Rel(mob, rnr, "Learns from")
+Rel(trn, web, "Teaches")
+@enduml
