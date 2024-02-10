@@ -25,3 +25,5 @@ In this document we have devised a one month plan to tackle the three immediate 
 **Scope**:Our Running application System and their interactions
 
 **Intended audience**: CEO, CTO, and CFO are the primary audience for this presentation. Eventually it will be extended to the development team in order to provide clarity on the goals to follow ahead.
+
+**Assumptions**: 
