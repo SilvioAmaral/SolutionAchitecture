@@ -1,5 +1,5 @@
 @startuml overview
-!include ./_C4.puml
+!include ../_C4.puml
 
 LAYOUT_WITH_LEGEND()
 
