@@ -50,7 +50,7 @@ In this document we have devised a one month plan to tackle the three immediate 
 - We will utilize a bit over half the IT team separated at 3 teams of 6 devs/devops/qa, for 2 consecutive sprints. 
 - The allocation of staff is agreed upon and no changes to the plan will be done on the next month
 
-**Limitations**: From the 4 suggested diagrams on C$ models, We will not be generating component and code diagrams. Instead we will create System Context and Container diagrams along with Deployment Diagrams , which will map our current platform to the physical cloud architecture, for current setup, one month attack plan and the final solution. This will help us visualize better the high level architectural changes proposed.
+**Limitations**: From the 4 suggested diagrams on C4 models, We will not be generating component and code diagrams. Instead we will create System Context and Container diagrams along with Deployment Diagrams , which will map our current platform to the physical cloud architecture, for current setup, one month attack plan and the final solution. This will help us visualize better the high level architectural changes proposed.
 
 **Tools**: 
 This document utilizes [Markdown files](https://www.markdownguide.org/) for text notes and [PlantUML](https://plantuml.com/) for diagram generations. 
