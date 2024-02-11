@@ -1,76 +1,78 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1549px" preserveAspectRatio="none" style="width:989px;height:1549px;background:#FFFFFF;" version="1.1" viewBox="0 0 989 1549" width="989px" zoomAndPan="magnify"><defs/><g><!--MD5=[d4f46b85ec0fd4984e46b6ab68a49907]
-cluster plc--><g id="cluster_plc"><rect height="1097" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;fill:none;" width="670" x="7" y="284"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="97" x="293.5" y="302.6094">Big Bank plc</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="146" x="269" y="318.582">[Big Bank plc data center]</text></g><!--MD5=[cb60efe6e32ae9dc1419f0024d193ed3]
-cluster dn--><g id="cluster_dn"><rect height="282" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;fill:none;" width="298" x="31" y="346"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="108" x="107" y="364.6094">bigbank-api***</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="18" x="235" y="364.6094">x8</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="107" x="126.5" y="380.582">[Ubuntu 16.04 LTS]</text></g><!--MD5=[8f463db2213924b28ab9fa8a8a25c26a]
-cluster apache--><g id="cluster_apache"><rect height="196" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;fill:none;" width="250" x="55" y="408"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="119" x="120.5" y="426.6094">Apache Tomcat</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="117" x="121.5" y="442.582">[Apache Tomcat 8.x]</text></g><!--MD5=[7e0f1b407756c52dd30c4ead0f9230ac]
-cluster bigbankdb01--><g id="cluster_bigbankdb01"><rect height="308" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;fill:none;" width="270" x="31" y="692"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="105" x="113.5" y="710.6094">bigbank-db01</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="107" x="112.5" y="726.582">[Ubuntu 16.04 LTS]</text></g><!--MD5=[d58f35efa7ac429240bfa5a7c4204cd4]
-cluster oracle--><g id="cluster_oracle"><rect height="222" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;fill:none;" width="222" x="55" y="754"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="121" x="105.5" y="772.6094">Oracle - Primary</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="70" x="131" y="788.582">[Oracle 12c]</text></g><!--MD5=[9fa18d40767c7b2b82a18fa9dfe8338d]
-cluster bigbankdb02--><g id="cluster_bigbankdb02"><rect height="308" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;fill:none;" width="270" x="124" y="1049"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="105" x="206.5" y="1067.6094">bigbank-db02</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="107" x="205.5" y="1083.582">[Ubuntu 16.04 LTS]</text></g><!--MD5=[69ad4c2ae5d24231281b185261861c19]
-cluster oracle2--><g id="cluster_oracle2"><rect height="222" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;fill:none;" width="222" x="148" y="1111"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="145" x="186.5" y="1129.6094">Oracle - Secondary</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="70" x="224" y="1145.582">[Oracle 12c]</text></g><!--MD5=[8732ada0ac3d982aaf760ffd06e5f6c2]
-cluster bb2--><g id="cluster_bb2"><rect height="282" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;fill:none;" width="300" x="353" y="346"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="117" x="430" y="364.6094">bigbank-web***</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="18" x="558" y="364.6094">x4</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="107" x="449.5" y="380.582">[Ubuntu 16.04 LTS]</text></g><!--MD5=[c9f3238ce9b9b9fe2ea53139a741cb96]
-cluster apache2--><g id="cluster_apache2"><rect height="196" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;fill:none;" width="252" x="377" y="408"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="119" x="443.5" y="426.6094">Apache Tomcat</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="117" x="444.5" y="442.582">[Apache Tomcat 8.x]</text></g><!--MD5=[543156d0aa455e6607833fc05f747439]
-cluster mob--><g id="cluster_mob"><rect height="213" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;fill:none;" width="238" x="61" y="7"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="197" x="81.5" y="25.6094">Customer's mobile device</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="125" x="117.5" y="41.582">[Apple IOS or Android]</text></g><!--MD5=[8cd91a8026ecd064a658212c3b3f8063]
-cluster comp--><g id="cluster_comp"><rect height="299" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;fill:none;" width="282" x="701" y="696.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="165" x="759.5" y="715.1094">Customer's computer</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="212" x="736" y="731.082">[Mircosoft Windows of Apple macOS]</text></g><!--MD5=[2de28e47f9582cb6df153deeec479525]
-cluster browser--><g id="cluster_browser"><rect height="213" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;fill:none;" width="234" x="725" y="758.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="103" x="790.5" y="777.1094">Web Browser</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="182" x="751" y="793.082">[Google Chrome, Mozilla Firefox]</text></g><!--MD5=[e2307af040e3f87d22824e7603ca28ec]
-entity api--><g id="elem_api"><rect fill="#438DD5" height="125.6563" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="217" x="71.5" y="462"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="116" x="122" y="488.6094">API Application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="124" x="118" y="504.582">[Java and Spring MVC]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="178" y="521.752"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="99" y="539.3613">Provides Internet Banking</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="81.5" y="556.9707">functionality via a JSON/HTTPS</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="25" x="167.5" y="574.5801">API.</text></g><!--MD5=[7468467f3b6b392f1d176d828c753b77]
-entity db--><g id="elem_db"><path d="M71,818 C71,808 166,808 166,808 C166,808 261,808 261,818 L261,950.2656 C261,960.2656 166,960.2656 166,960.2656 C166,960.2656 71,960.2656 71,950.2656 L71,818 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.5;"/><path d="M71,818 C71,828 166,828 166,828 C166,828 261,828 261,818 " fill="none" style="stroke:#3C7FC0;stroke-width:0.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="72" x="130" y="848.6094">Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="168" x="82" y="864.582">[Relational Database Schema]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="164" y="881.752"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="92" y="899.3613">Stores user registration</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="101.5" y="916.9707">information, hashed</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="81" y="934.5801">authentication credentials,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="113.5" y="952.1895">access logs, etc.</text></g><!--MD5=[2331507006b4b8bee4c616015350b23c]
-entity db2--><g id="elem_db2"><path d="M164,1175 C164,1165 259,1165 259,1165 C259,1165 354,1165 354,1175 L354,1307.2656 C354,1317.2656 259,1317.2656 259,1317.2656 C259,1317.2656 164,1317.2656 164,1307.2656 L164,1175 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.5;"/><path d="M164,1175 C164,1185 259,1185 259,1185 C259,1185 354,1185 354,1175 " fill="none" style="stroke:#3C7FC0;stroke-width:0.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="72" x="223" y="1205.6094">Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="168" x="175" y="1221.582">[Relational Database Schema]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="257" y="1238.752"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="185" y="1256.3613">Stores user registration</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="194.5" y="1273.9707">information, hashed</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="174" y="1291.5801">authentication credentials,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="206.5" y="1309.1895">access logs, etc.</text></g><!--MD5=[08af8945a84acfe1eabc0963aa87c412]
-entity web--><g id="elem_web"><rect fill="#438DD5" height="125.6563" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="219" x="393.5" y="462"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="124" x="441" y="488.6094">Web Application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="124" x="441" y="504.582">[Java and Spring MVC]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="501" y="521.752"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="407.5" y="539.3613">Delivers the static content and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="417" y="556.9707">the Internet Banking single</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="449" y="574.5801">page application.</text></g><!--MD5=[870e13a82a9bc0252b17e3ad6e742bb1]
-entity mobile--><g id="elem_mobile"><rect fill="#438DD5" height="143.2656" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="206" x="77" y="61"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="85" x="137.5" y="87.6094">Mobile App</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="53" x="153.5" y="103.582">[Xamarin]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="178" y="120.752"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="93.5" y="138.3613">Provides a limited subset of</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="114.5" y="155.9707">the Internet Banking</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="87" y="173.5801">functionality to customers via</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="119" y="191.1895">their mobile device.</text></g><!--MD5=[33573e971ff506c0f246109ca3fd77bd]
-entity spa--><g id="elem_spa"><rect fill="#438DD5" height="143.2656" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="201" x="741.5" y="812.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="181" x="751.5" y="839.1094">Single Page Application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="133" x="775.5" y="855.082">[JavaScript and Angular]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="840" y="872.252"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="759.5" y="889.8613">Provides all of the Internet</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="767" y="907.4707">Banking functionality to</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="766" y="925.0801">customers via their web</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="815" y="942.6895">browser.</text></g><!--MD5=[aa67fb756ea91151fa7b0a063a4e1220]
-link mobile to api--><g id="link_mobile_api"><path d="M180,204.22 C180,274.86 180,382.84 180,453.44 " fill="none" id="mobile-to-api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="180,461.86,183,453.86,177,453.86,180,461.86" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="181" y="249.457">Makes API calls to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="71" x="197.5" y="264.5508">[json/HTTPS]</text></g><!--MD5=[b20751f21bc3c5e56073fe913b5ac5ab]
-link spa to api--><g id="link_spa_api"><path d="M741.3,817.26 C675.62,775.96 587.14,723.28 505,684 C450.19,657.79 432.12,661.55 377,636 C348.78,622.92 319.11,607.37 291.61,592.14 " fill="none" id="spa-to-api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="284.29,588.07,289.8128,594.5891,292.7375,589.3503,284.29,588.07" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="487" y="657.457">Makes API calls to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="71" x="503.5" y="672.5508">[json/HTTPS]</text></g><!--MD5=[ca038ce5783dc4b0fafb3b6644ac783b]
-link web to spa--><g id="link_web_spa"><path d="M592.82,588.02 C615.09,605.07 638.22,624.32 658,644 C707.73,693.46 755.8,756.6 790.32,805.56 " fill="none" id="web-to-spa" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="795.1,812.37,792.9531,804.1001,788.0447,807.551,795.1,812.37" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="149" x="687" y="657.457">Delivers to the customer's</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="75" x="724" y="672.5508">web browser</text></g><!--MD5=[1b9dbcfdb69d97b7ce5f2d963fc4ed75]
-link api to db--><g id="link_api_db"><path d="M177.56,588.18 C175.26,646.81 171.8,735.08 169.26,799.75 " fill="none" id="api-to-db" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="168.94,807.92,172.2517,800.0439,166.2564,799.8084,168.94,807.92" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="143" x="176" y="657.457">Reads from and writes to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="38" x="228.5" y="672.5508">[JDBC]</text></g><!--MD5=[c945a0638e97c8d85bbaa16159667354]
-link api to db2--><g id="link_api_db2"><path d="M283.55,588.21 C301.53,604.02 317.73,622.68 328,644 C409.05,812.28 342.71,1037.23 295.68,1156.9 " fill="none" id="api-to-db2" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="292.62,1164.63,298.3556,1158.2973,292.7773,1156.0874,292.62,1164.63" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="143" x="367" y="881.457">Reads from and writes to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="38" x="419.5" y="896.5508">[JDBC]</text></g><!--MD5=[ea1351de5d5b841bf911f898ed156919]
-link db to db2--><g id="link_db_db2"><path d="M185.72,960.29 C200.83,1017.94 221.65,1097.42 237.24,1156.93 " fill="none" id="db-to-db2" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="239.31,1164.82,240.1845,1156.3209,234.3804,1157.8415,239.31,1164.82" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="102" x="205" y="1029.457">Replicates data to</text></g><rect height="139.2656" rx="7.5" ry="7.5" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="133" x="834" y="1394"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="53" x="840" y="1416.5332">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="893" y="1416.5332"> </text><rect fill="#08427B" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="840" y="1419.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="844" y="1434.1426">person</text><rect fill="#1168BD" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="840" y="1437.2188"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="844" y="1451.752">system</text><rect fill="#438DD5" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="840" y="1454.8281"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="844" y="1469.3613">container</text><rect fill="#686868" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="840" y="1472.4375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="844" y="1486.9707">external person</text><rect fill="#999999" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="840" y="1490.0469"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="844" y="1504.5801">external system</text><rect fill="#B3B3B3" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="840" y="1507.6563"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="844" y="1522.1895">external container</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="840" x2="961" y1="1402" y2="1402"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="840" x2="961" y1="1419.6094" y2="1419.6094"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="840" x2="961" y1="1437.2188" y2="1437.2188"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="840" x2="961" y1="1454.8281" y2="1454.8281"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="840" x2="961" y1="1472.4375" y2="1472.4375"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="840" x2="961" y1="1490.0469" y2="1490.0469"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="840" x2="961" y1="1507.6563" y2="1507.6563"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="840" x2="961" y1="1525.2656" y2="1525.2656"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="840" x2="840" y1="1402" y2="1525.2656"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="961" x2="961" y1="1402" y2="1525.2656"/><!--MD5=[5d61c7d5b9253d0e15ae9b35c20d2d60]
-@startuml
-!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Deployment.puml
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1372px" preserveAspectRatio="none" style="width:714px;height:1372px;background:#FFFFFF;" version="1.1" viewBox="0 0 714 1372" width="714px" zoomAndPan="magnify"><defs/><g><!--MD5=[d4f46b85ec0fd4984e46b6ab68a49907]
+cluster plc--><g id="cluster_plc"><rect fill="#FFFFFF" height="787" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="595" x="7" y="417"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="46" x="281.5" y="435.6094">Cloud</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="161" x="224" y="451.582">[The cloud provider boundary]</text></g><!--MD5=[cb60efe6e32ae9dc1419f0024d193ed3]
+cluster dn--><g id="cluster_dn"><rect fill="#FFFFFF" height="314" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="547" x="31" y="479"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="97" x="256" y="497.6094">running-vm1</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="206" x="201.5" y="513.582">[200GB Ram - 32Core - Ubuntu 18.04</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="25" x="292" y="528.6758">LTS]</text></g><!--MD5=[c9f3238ce9b9b9fe2ea53139a741cb96]
+cluster apache2--><g id="cluster_apache2"><rect fill="#FFFFFF" height="213" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="499" x="55" y="556"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="119" x="245" y="574.6094">Apache Tomcat</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="109" x="250" y="590.582">[Apache Tomcat 8.x]</text></g><!--MD5=[5098877e7cd2e11aff207135a880c257]
+cluster db01--><g id="cluster_db01"><rect fill="#FFFFFF" height="323" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="292" x="35" y="857"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="97" x="132.5" y="875.6094">running-vm2</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="206" x="78" y="891.582">[200GB Ram - 32Core - Ubuntu 18.04</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="25" x="168.5" y="906.6758">LTS]</text></g><!--MD5=[40f389b860e50d90baaf5de832b1264d]
+cluster mysql--><g id="cluster_mysql"><rect fill="#FFFFFF" height="222" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="244" x="59" y="934"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="55" x="153.5" y="952.6094">MySQL</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="64" x="149" y="968.582">[MySQL 5.7]</text></g><!--MD5=[543156d0aa455e6607833fc05f747439]
+cluster mob--><g id="cluster_mob"><rect fill="#FFFFFF" height="196" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="242" x="60" y="108.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="197" x="82.5" y="127.1094">Customer's mobile device</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="119" x="121.5" y="143.082">[Apple IOS or Android]</text></g><!--MD5=[8cd91a8026ecd064a658212c3b3f8063]
+cluster comp--><g id="cluster_comp"><rect fill="#FFFFFF" height="346" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="349" x="359" y="7"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="165" x="451" y="25.6094">Customer's computer</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="199" x="434" y="41.582">[MS Windows / Apple macOS / Linux]</text></g><!--MD5=[2de28e47f9582cb6df153deeec479525]
+cluster browser--><g id="cluster_browser"><rect fill="#FFFFFF" height="244" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="285" x="391" y="77"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="103" x="482" y="95.6094">Web Browser</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="176" x="445.5" y="111.582">[Google Chrome, Mozilla Firefox,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="32" x="517.5" y="126.6758">Edge]</text></g><!--MD5=[08af8945a84acfe1eabc0963aa87c412]
+entity web--><g id="elem_web"><rect fill="#438DD5" height="108.0469" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="212" x="326" y="627.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="124" x="370" y="654.1094">Web Application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="124" x="370" y="670.082">[Java and Spring MVC]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="430" y="687.252"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="344.5" y="704.8613">Provides static content and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="336" y="722.4707">SPA to customer web browser.</text></g><!--MD5=[e2307af040e3f87d22824e7603ca28ec]
+entity api--><g id="elem_api"><rect fill="#438DD5" height="143.2656" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="220" x="71" y="610"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="116" x="123" y="636.6094">API Application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="124" x="119" y="652.582">[Java and Spring MVC]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="179" y="669.752"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="102.5" y="687.3613">Provides all running app</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="81" y="704.9707">functionality to both Mobile and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="89" y="722.5801">Web App via a JSON/HTTPS</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="25" x="168.5" y="740.1895">API.</text></g><!--MD5=[7468467f3b6b392f1d176d828c753b77]
+entity db--><g id="elem_db"><path d="M75,998 C75,988 181,988 181,988 C181,988 287,988 287,998 L287,1130.2656 C287,1140.2656 181,1140.2656 181,1140.2656 C181,1140.2656 75,1140.2656 75,1130.2656 L75,998 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.5;"/><path d="M75,998 C75,1008 181,1008 181,1008 C181,1008 287,1008 287,998 " fill="none" style="stroke:#3C7FC0;stroke-width:0.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="72" x="145" y="1028.6094">Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="168" x="97" y="1044.582">[Relational Database Schema]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="179" y="1061.752"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="85" y="1079.3613">Stores all data from App: user</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="115" y="1096.9707">account information,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="89.5" y="1114.5801">credentials, running tracking</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="167" y="1132.1895">data</text></g><!--MD5=[870e13a82a9bc0252b17e3ad6e742bb1]
+entity mobile--><g id="elem_mobile"><rect fill="#438DD5" height="125.6563" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="209" x="76.5" y="162.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="85" x="138.5" y="189.1094">Mobile App</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="76" x="143" y="205.082">[React Native]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="179" y="222.252"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185" x="86.5" y="239.8613">Provides the running tracking</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="92" y="257.4707">functionality via their mobile</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="158.5" y="275.0801">device.</text></g><!--MD5=[33573e971ff506c0f246109ca3fd77bd]
+entity spa--><g id="elem_spa"><rect fill="#438DD5" height="143.2656" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="217" x="434.5" y="154"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="33" x="526.5" y="180.6094">SPA</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="96" x="495" y="196.582">[react/HTML/CSS]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="541" y="213.752"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="444.5" y="231.3613">Provides all of the running data</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="466" y="248.9707">dashboard and account</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="450" y="266.5801">functionality to customers via</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="485.5" y="284.1895">their web browser.</text></g><!--MD5=[aa67fb756ea91151fa7b0a063a4e1220]
+link mobile to api--><g id="link_mobile_api"><path d="M181,288.67 C181,370.04 181,512.7 181,601.6 " fill="none" id="mobile-to-api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="181,609.76,184,601.76,178,601.76,181,609.76" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="182" y="382.457">Makes API calls to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="71" x="198.5" y="397.5508">[json/HTTPS]</text></g><!--MD5=[b20751f21bc3c5e56073fe913b5ac5ab]
+link spa to api--><g id="link_spa_api"><path d="M541.05,297.25 C536.03,334.14 523.17,376.56 492,401 C475.98,413.56 325.95,397.73 309,409 C243.88,452.32 211.12,538.16 195.16,601.77 " fill="none" id="spa-to-api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="193.2,609.81,198.0141,602.7514,192.1858,601.3264,193.2,609.81" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="149" x="518" y="382.457">Delivers to the customer's</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="75" x="555" y="397.5508">web browser</text></g><!--MD5=[03935ef2adc817331da3cc0923730f46]
+link browser to web--><g id="link_browser_web"><path d="M405.9789,322.4862 C406.0199,323.0495 406.0609,323.6143 406.1021,324.1808 C406.1844,325.3138 406.2672,326.4533 406.3504,327.599 C406.5169,329.8904 406.6853,332.2069 406.8553,334.5468 C407.1953,339.2267 407.5422,344.0006 407.8951,348.8563 C408.6007,358.5676 409.3302,368.6061 410.0762,378.8738 C416.045,461.015 423.08,557.825 427.54,619.18 " fill="none" id="browser-to-web" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="428.14,627.41,430.5457,619.2117,424.5618,619.6513,428.14,627.41" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="40" x="427.5" y="382.457">Serves</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="71" x="412" y="397.5508">[json/HTTPS]</text></g><!--MD5=[1b9dbcfdb69d97b7ce5f2d963fc4ed75]
+link api to db--><g id="link_api_db"><path d="M181,753.18 C181,817.3 181,911.91 181,979.69 " fill="none" id="api-to-db" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="181,987.82,184,979.82,178,979.82,181,987.82" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="143" x="182" y="822.457">Reads from and writes to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="38" x="234.5" y="837.5508">[JDBC]</text></g><rect height="139.2656" rx="7.5" ry="7.5" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="133" x="559" y="1217"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="53" x="565" y="1239.5332">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="618" y="1239.5332"> </text><rect fill="#08427B" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="565" y="1242.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="569" y="1257.1426">person</text><rect fill="#1168BD" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="565" y="1260.2188"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="569" y="1274.752">system</text><rect fill="#438DD5" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="565" y="1277.8281"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="569" y="1292.3613">container</text><rect fill="#686868" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="565" y="1295.4375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="569" y="1309.9707">external person</text><rect fill="#999999" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="565" y="1313.0469"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="569" y="1327.5801">external system</text><rect fill="#B3B3B3" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="565" y="1330.6563"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="569" y="1345.1895">external container</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="565" x2="686" y1="1225" y2="1225"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="565" x2="686" y1="1242.6094" y2="1242.6094"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="565" x2="686" y1="1260.2188" y2="1260.2188"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="565" x2="686" y1="1277.8281" y2="1277.8281"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="565" x2="686" y1="1295.4375" y2="1295.4375"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="565" x2="686" y1="1313.0469" y2="1313.0469"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="565" x2="686" y1="1330.6563" y2="1330.6563"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="565" x2="686" y1="1348.2656" y2="1348.2656"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="565" x2="565" y1="1225" y2="1348.2656"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="686" x2="686" y1="1225" y2="1348.2656"/><!--MD5=[d40b0b6a76934badcfc173c5934cb435]
+@startuml deployment
+!include ../../C4-PlantUML/C4_Deployment.puml
 
 LAYOUT_WITH_LEGEND()
 
-Deployment_Node(plc, "Big Bank plc", "Big Bank plc data center"){
-    Deployment_Node(dn, "bigbank-api***\tx8", "Ubuntu 16.04 LTS"){
-        Deployment_Node(apache, "Apache Tomcat", "Apache Tomcat 8.x"){
-            Container(api, "API Application", "Java and Spring MVC", "Provides Internet Banking functionality via a JSON/HTTPS API.")
-        }
-    }
-    Deployment_Node(bigbankdb01, "bigbank-db01", "Ubuntu 16.04 LTS"){
-        Deployment_Node(oracle, "Oracle - Primary", "Oracle 12c"){
-            ContainerDb(db, "Database", "Relational Database Schema", "Stores user registration information, hashed authentication credentials, access logs, etc.")
-        }
-    }
-    Deployment_Node(bigbankdb02, "bigbank-db02", "Ubuntu 16.04 LTS"){
-        Deployment_Node(oracle2, "Oracle - Secondary", "Oracle 12c"){
-            ContainerDb(db2, "Database", "Relational Database Schema", "Stores user registration information, hashed authentication credentials, access logs, etc.")
-        }
-    }
-    Deployment_Node(bb2, "bigbank-web***\tx4", "Ubuntu 16.04 LTS"){
+Deployment_Node(plc, "Cloud", "The cloud provider boundary"){
+    Deployment_Node(dn, "running-vm1", "200GB Ram - 32Core - Ubuntu 18.04 LTS"){
         Deployment_Node(apache2, "Apache Tomcat", "Apache Tomcat 8.x"){
-            Container(web, "Web Application", "Java and Spring MVC", "Delivers the static content and the Internet Banking single page application.")
+            Container(web, "Web Application", "Java and Spring MVC", "Provides static content and SPA to customer web browser.")
+            Container(api, "API Application", "Java and Spring MVC", "Provides all running app functionality to both Mobile and Web App via a JSON/HTTPS API.")
+        }        
+    }
+    Deployment_Node(db01, "running-vm2", "200GB Ram - 32Core - Ubuntu 18.04 LTS"){
+        Deployment_Node(mysql, "MySQL", "MySQL 5.7"){
+            ContainerDb(db, "Database", "Relational Database Schema", "Stores all data from App: user account information, credentials, running tracking data")
         }
     }
 }
 
 Deployment_Node(mob, "Customer's mobile device", "Apple IOS or Android"){
-    Container(mobile, "Mobile App", "Xamarin", "Provides a limited subset of the Internet Banking functionality to customers via their mobile device.")
+    Container(mobile, "Mobile App", "React Native", "Provides the running tracking functionality via their mobile device.")
 }
 
-Deployment_Node(comp, "Customer's computer", "Mircosoft Windows of Apple macOS"){
-    Deployment_Node(browser, "Web Browser", "Google Chrome, Mozilla Firefox"){
-        Container(spa, "Single Page Application", "JavaScript and Angular", "Provides all of the Internet Banking functionality to customers via their web browser.")
+Deployment_Node(comp, "Customer's computer", "MS Windows / Apple macOS / Linux"){
+    Deployment_Node(browser, "Web Browser", "Google Chrome, Mozilla Firefox, Edge"){
+        Container(spa, "SPA", "react/HTML/CSS", "Provides all of the running data dashboard and account functionality to customers via their web browser.")
     }
 }
 
 Rel(mobile, api, "Makes API calls to", "json/HTTPS")
-Rel(spa, api, "Makes API calls to", "json/HTTPS")
-Rel(web, spa, "Delivers to the customer's web browser")
+Rel(spa, api, "Delivers to the customer's web browser")
+Rel(browser, web, "Serves", "json/HTTPS")
 Rel(api, db, "Reads from and writes to", "JDBC")
-Rel(api, db2, "Reads from and writes to", "JDBC")
-Rel(db, db2, "Replicates data to")
 
 @enduml
 
-@startuml
+@startuml deployment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -81,38 +83,353 @@ skinparam defaultTextAlignment center
 skinparam wrapWidth 200
 skinparam maxMessageSize 150
 
-skinparam LegendBorderColor transparent
-skinparam LegendBackgroundColor transparent
 skinparam LegendFontColor #FFFFFF
+skinparam LegendBackgroundColor transparent
+skinparam LegendBorderColor transparent
+
+skinparam rectangle<<legendArea>> {
+    backgroundcolor transparent
+    bordercolor transparent
+}
 
 skinparam rectangle {
     StereotypeFontSize 12
-    shadowing false
 }
 
 skinparam database {
     StereotypeFontSize 12
-    shadowing false
 }
 
 skinparam queue {
     StereotypeFontSize 12
-    shadowing false
 }
 
-skinparam Arrow {
+skinparam participant {
+    StereotypeFontSize 12
+}
+
+skinparam arrow {
     Color #666666
     FontColor #666666
     FontSize 12
 }
 
+skinparam person {
+    StereotypeFontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    style awesome
+}
+
+
 skinparam rectangle<<boundary>> {
-    Shadowing false
-    StereotypeFontSize 0
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    BorderStyle dashed
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+skinparam rectangle<<boundary>> {
     FontColor #444444
+    BackgroundColor transparent
     BorderColor #444444
     BorderStyle dashed
 }
+skinparam database<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam queue<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam person<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam actor<<boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam participant<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam sequencebox<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam package<<boundary>>StereotypeFontColor transparent
+skinparam rectangle<<boundary>>StereotypeFontColor transparent
+
+    
+skinparam rectangle<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam database<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam queue<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam person<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam actor<<enterprise_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam participant<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam sequencebox<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam package<<enterprise_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<enterprise_boundary>>StereotypeFontColor transparent
+
+
+    
+skinparam rectangle<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam database<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam queue<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam person<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam actor<<system_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam participant<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam sequencebox<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam package<<system_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<system_boundary>>StereotypeFontColor transparent
+
+
+    
+skinparam rectangle<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam database<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam queue<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam person<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam actor<<container_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam participant<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam sequencebox<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam package<<container_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<container_boundary>>StereotypeFontColor transparent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -148,6 +465,43 @@ skinparam rectangle<<person>> {
     BackgroundColor #08427B
     BorderColor #073B6F
 }
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam participant<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam sequencebox<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
 
 skinparam rectangle<<external_person>> {
     StereotypeFontColor #FFFFFF
@@ -155,6 +509,43 @@ skinparam rectangle<<external_person>> {
     BackgroundColor #686868
     BorderColor #8A8A8A
 }
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam participant<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam sequencebox<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
 
 skinparam rectangle<<system>> {
     StereotypeFontColor #FFFFFF
@@ -162,6 +553,43 @@ skinparam rectangle<<system>> {
     BackgroundColor #1168BD
     BorderColor #3C7FC0
 }
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam participant<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam sequencebox<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
 
 skinparam rectangle<<external_system>> {
     StereotypeFontColor #FFFFFF
@@ -169,6 +597,141 @@ skinparam rectangle<<external_system>> {
     BackgroundColor #999999
     BorderColor #8A8A8A
 }
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam participant<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam sequencebox<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+    
+skinparam rectangle<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam database<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam queue<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam person<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam actor<<system_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam participant<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam sequencebox<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam package<<system_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<system_boundary>>StereotypeFontColor transparent
+
+
+    
+skinparam rectangle<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam database<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam queue<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam person<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam actor<<enterprise_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam participant<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam sequencebox<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam package<<enterprise_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<enterprise_boundary>>StereotypeFontColor transparent
+
+
+
+
+
 
 sprite $person [48x48/16] {
 000000000000000000000000000000000000000000000000
@@ -221,6 +784,262 @@ sprite $person [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+sprite $robot [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000005BFFFFFFFFFFFFFFFFFFFFFE9100000000000
+0000000000AFFFFFFFFFFFFFFFFFFFFFFFFFE30000000000
+0000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFE1000000000
+000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000000000
+000000004FFFFFFFFFFFFFFFFFFFFFFFFFFFFFC000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000699405FFFFFFC427FFFFFFFFFC427FFFFFFE009982000
+008FFF705FFFFFE10006FFFFFFFE00007FFFFFE00FFFF100
+00CFFF705FFFFFA00001FFFFFFF900002FFFFFE00FFFF500
+00DFFF705FFFFFB00002FFFFFFFA00003FFFFFE00FFFF500
+00DFFF705FFFFFF4000AFFFFFFFF3000BFFFFFE00FFFF500
+00DFFF705FFFFFFFA8DFFFFFFFFFFA8DFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00CFFF705FFFFFF87777777777777777CFFFFFE00FFFF500
+008FFF705FFFFFF100000000000000009FFFFFE00FFFF100
+000699405FFFFFF76666666666666666CFFFFFE009982000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000000004FFFFFFFFFFFFFFFFFFFFFFFFFFFFFC000000000
+000000000EFFFFFFFFFFFFFFFFFFFFFFFFFFFF7000000000
+0000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFD0000000000
+00000000004CFFFFFFFFFFFFFFFFFFFFFFFF910000000000
+000000000000011111111111111111111110000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $robot2 [48x48/16] {
+000000000000000088888888888888880000000000000000
+000000000000000AFFFFFFFFFFFFFFFFA000000000000000
+00000000000000CFFFFFFFFFFFFFFFFFFC00000000000000
+00000000000004EFFFFFFFFFFFFFFFFFFE40000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFFA0000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000888FFFFFFFFFFFFFFFFFFFF88800000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000000888FFFFFFFFFFFFFFFFFFFF88800000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000004CFFFFFFFFFFFFFFFFFFC40000000000000
+000000488888848CFFFFFFFFFFFFFFFFC848888884000000
+00000CFFFFFFFFC888888888888888888CFFFFFFFFC00000
+00008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF80000
+0000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC0000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0000CFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFC0000
+00008FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF80000
+00000CFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFC00000
+000000488887578888888888888888888864688884000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam participant<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam sequencebox<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam participant<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam sequencebox<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -242,20 +1061,43 @@ skinparam rectangle<<container>> {
     BackgroundColor #438DD5
     BorderColor #3C7FC0
 }
-
 skinparam database<<container>> {
     StereotypeFontColor #FFFFFF
     FontColor #FFFFFF
     BackgroundColor #438DD5
     BorderColor #3C7FC0
 }
-
 skinparam queue<<container>> {
     StereotypeFontColor #FFFFFF
     FontColor #FFFFFF
     BackgroundColor #438DD5
     BorderColor #3C7FC0
 }
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam participant<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam sequencebox<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
 
 skinparam rectangle<<external_container>> {
     StereotypeFontColor #FFFFFF
@@ -263,20 +1105,97 @@ skinparam rectangle<<external_container>> {
     BackgroundColor #B3B3B3
     BorderColor #A6A6A6
 }
-
 skinparam database<<external_container>> {
     StereotypeFontColor #FFFFFF
     FontColor #FFFFFF
     BackgroundColor #B3B3B3
     BorderColor #A6A6A6
 }
-
 skinparam queue<<external_container>> {
     StereotypeFontColor #FFFFFF
     FontColor #FFFFFF
     BackgroundColor #B3B3B3
     BorderColor #A6A6A6
 }
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam participant<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam sequencebox<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+    
+skinparam rectangle<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam database<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam queue<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam person<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam actor<<container_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam participant<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam sequencebox<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+    BorderStyle dashed
+}
+skinparam package<<container_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<container_boundary>>StereotypeFontColor transparent
+
+
+
+
+
+
+
+
 
 
 
@@ -292,12 +1211,65 @@ skinparam queue<<external_container>> {
 
 
 skinparam rectangle<<node>> {
-    Shadowing false
-    StereotypeFontSize 0
+    StereotypeFontColor #000000
     FontColor #000000
+    BackgroundColor #FFFFFF
     BorderColor #A2A2A2
-    BorderStyle solid
 }
+skinparam database<<node>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #FFFFFF
+    BorderColor #A2A2A2
+}
+skinparam queue<<node>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #FFFFFF
+    BorderColor #A2A2A2
+}
+skinparam person<<node>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #FFFFFF
+    BorderColor #A2A2A2
+}
+skinparam actor<<node>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #FFFFFF
+    BorderColor #A2A2A2
+}
+skinparam participant<<node>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #FFFFFF
+    BorderColor #A2A2A2
+}
+skinparam sequencebox<<node>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #FFFFFF
+    BorderColor #A2A2A2
+}
+
+skinparam rectangle<<node>> {
+    FontStyle normal
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 hide stereotype
@@ -311,45 +1283,34 @@ legend right
 |<#B3B3B3> external container |
 endlegend
 
-rectangle "==Big Bank plc\n<size:12>[Big Bank plc data center]</size>" <<node>> as plc{
-    rectangle "==bigbank-api***\tx8\n<size:12>[Ubuntu 16.04 LTS]</size>" <<node>> as dn{
-        rectangle "==Apache Tomcat\n<size:12>[Apache Tomcat 8.x]</size>" <<node>> as apache{
-            rectangle "==API Application\n//<size:12>[Java and Spring MVC]</size>//\n\n Provides Internet Banking functionality via a JSON/HTTPS API." <<container>> as api
-        }
+rectangle "== Cloud\n<size:12>[The cloud provider boundary]</size>" <<node>> as plc {
+    rectangle "== running-vm1\n<size:12>[200GB Ram - 32Core - Ubuntu 18.04</size>\n<size:12>LTS]</size>" <<node>> as dn {
+        rectangle "== Apache Tomcat\n<size:12>[Apache Tomcat 8.x]</size>" <<node>> as apache2 {
+              rectangle "== Web Application\n//<size:12>[Java and Spring MVC]</size>//\n\nProvides static content and SPA to customer web browser." <<container>> as web
+              rectangle "== API Application\n//<size:12>[Java and Spring MVC]</size>//\n\nProvides all running app functionality to both Mobile and Web App via a JSON/HTTPS API." <<container>> as api
+        }        
     }
-    rectangle "==bigbank-db01\n<size:12>[Ubuntu 16.04 LTS]</size>" <<node>> as bigbankdb01{
-        rectangle "==Oracle - Primary\n<size:12>[Oracle 12c]</size>" <<node>> as oracle{
-            database "==Database\n//<size:12>[Relational Database Schema]</size>//\n\n Stores user registration information, hashed authentication credentials, access logs, etc." <<container>> as db
-        }
-    }
-    rectangle "==bigbank-db02\n<size:12>[Ubuntu 16.04 LTS]</size>" <<node>> as bigbankdb02{
-        rectangle "==Oracle - Secondary\n<size:12>[Oracle 12c]</size>" <<node>> as oracle2{
-            database "==Database\n//<size:12>[Relational Database Schema]</size>//\n\n Stores user registration information, hashed authentication credentials, access logs, etc." <<container>> as db2
-        }
-    }
-    rectangle "==bigbank-web***\tx4\n<size:12>[Ubuntu 16.04 LTS]</size>" <<node>> as bb2{
-        rectangle "==Apache Tomcat\n<size:12>[Apache Tomcat 8.x]</size>" <<node>> as apache2{
-            rectangle "==Web Application\n//<size:12>[Java and Spring MVC]</size>//\n\n Delivers the static content and the Internet Banking single page application." <<container>> as web
+    rectangle "== running-vm2\n<size:12>[200GB Ram - 32Core - Ubuntu 18.04</size>\n<size:12>LTS]</size>" <<node>> as db01 {
+        rectangle "== MySQL\n<size:12>[MySQL 5.7]</size>" <<node>> as mysql {
+              database "== Database\n//<size:12>[Relational Database Schema]</size>//\n\nStores all data from App: user account information, credentials, running tracking data" <<container>> as db
         }
     }
 }
 
-rectangle "==Customer's mobile device\n<size:12>[Apple IOS or Android]</size>" <<node>> as mob{
-    rectangle "==Mobile App\n//<size:12>[Xamarin]</size>//\n\n Provides a limited subset of the Internet Banking functionality to customers via their mobile device." <<container>> as mobile
+rectangle "== Customer's mobile device\n<size:12>[Apple IOS or Android]</size>" <<node>> as mob {
+      rectangle "== Mobile App\n//<size:12>[React Native]</size>//\n\nProvides the running tracking functionality via their mobile device." <<container>> as mobile
 }
 
-rectangle "==Customer's computer\n<size:12>[Mircosoft Windows of Apple macOS]</size>" <<node>> as comp{
-    rectangle "==Web Browser\n<size:12>[Google Chrome, Mozilla Firefox]</size>" <<node>> as browser{
-        rectangle "==Single Page Application\n//<size:12>[JavaScript and Angular]</size>//\n\n Provides all of the Internet Banking functionality to customers via their web browser." <<container>> as spa
+rectangle "== Customer's computer\n<size:12>[MS Windows / Apple macOS / Linux]</size>" <<node>> as comp {
+    rectangle "== Web Browser\n<size:12>[Google Chrome, Mozilla Firefox,</size>\n<size:12>Edge]</size>" <<node>> as browser {
+          rectangle "== SPA\n//<size:12>[react/HTML/CSS]</size>//\n\nProvides all of the running data dashboard and account functionality to customers via their web browser." <<container>> as spa
     }
 }
 
 mobile - ->> api : **Makes API calls to**\n//<size:12>[json/HTTPS]</size>//
-spa - ->> api : **Makes API calls to**\n//<size:12>[json/HTTPS]</size>//
-web - ->> spa : **Delivers to the customer's web browser**
+spa - ->> api : **Delivers to the customer's web browser**
+browser - ->> web : **Serves**\n//<size:12>[json/HTTPS]</size>//
 api - ->> db : **Reads from and writes to**\n//<size:12>[JDBC]</size>//
-api - ->> db2 : **Reads from and writes to**\n//<size:12>[JDBC]</size>//
-db - ->> db2 : **Replicates data to**
 
 @enduml
 

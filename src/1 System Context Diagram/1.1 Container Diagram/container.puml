@@ -7,8 +7,9 @@ Person(rnr, "Runner", "A customer of the running app.")
 Person_Ext(trn, "Trainer", "The trainers for those that are premium members.")
 System_Boundary(bnd, "Running App") {
     System_Boundary(tier1, "Tier1"){
-        Container(wa, "Web Application", "Java and Spring MVC", "Web application with dashboard.")
-        Container(ma, "Mobile App", "React Native", "Provides the running tracking functionality via their mobile device.")
+        Container(web, "Web Application", "java and Spring MVC", "Delivers the static content and single page application.")
+        Container(spa, "Single Page Application", "javascript and react", "Provides all the running app functionality to customers via web browser.")
+        Container(mob, "Mobile App", "React Native", "Provides the running tracking functionality via their mobile device.")
     }
 
     System_Boundary(tier2, "Tier2"){
@@ -18,11 +19,13 @@ System_Boundary(bnd, "Running App") {
     Container(db, "Database", "MySQL DB", "Stores all running tracking data, user registration information, authentication credentials, access logs, etc.")
 
     Rel(api, db, "Reads & writes to", "JDBC")
-    Rel(wa, api, "Uses", "JSON/HTTPS")
-    Rel(ma, api, "Uses", "JSON/HTTPS")
+    Rel(spa, api, "Uses", "JSON/HTTPS")
+    Rel(mob, api, "Uses", "JSON/HTTPS")
+
 }
 
-Rel(rnr, wa, "Uses", "HTTPS")
-Rel(rnr, ma, "Uses", "HTTPS")
-Rel(trn, ma, "Uses", "HTTPS")
+Rel(rnr, web, "Serves", "HTTPS")
+Rel(rnr, spa, "Uses", "HTTPS")
+Rel(rnr, mob, "Uses", "HTTPS")
+Rel(trn, spa, "Uses", "HTTPS")
 @enduml
