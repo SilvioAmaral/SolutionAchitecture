@@ -15,3 +15,4 @@ There are two VM instances of 200GB RAM and 32vCPUs. On the first instance , we 
 - the API layer is also on the the first VM instance and receives all requests from reads and writes all data to the database. 
 
 The Database is installed on the second VM of the same size , and it runs a single MySQL database instance that is managed by our cloud services provider.
+
