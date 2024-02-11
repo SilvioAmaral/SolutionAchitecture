@@ -1,11 +1,28 @@
 @startuml container
-!include ../../_C4.puml
+!include ../../../C4-PlantUML/C4_Container.puml
 
 LAYOUT_WITH_LEGEND()
 
-Person(rnr, "Runner", "A runner that wants to track its progress.")
-Person_Ext(trn, "Trainer", "A trainer that provides guidance to runners.")
-System(mob, "Mobile", "Allows runners to track their runs and live an awesome life.")
-System(web, "Web Dashboard", "Allows runners to view their runs and track their progress.")
+Person(rnr, "Runner", "A customer of the running app.")
+Person_Ext(trn, "Trainer", "The trainers for those that are premium members.")
+System_Boundary(bnd, "Running App") {
+    System_Boundary(tier1, "Tier1"){
+        Container(wa, "Web Application", "Java and Spring MVC", "Web application with dashboard.")
+        Container(ma, "Mobile App", "React Native", "Provides the running tracking functionality via their mobile device.")
+    }
 
+    System_Boundary(tier2, "Tier2"){
+        Container(api, "API Application", "Java", "Provides data to web and mobile apps via a JSON over HTTPS API.")        
+    }
+    
+    Container(db, "Database", "MySQL DB", "Stores all running tracking data, user registration information, authentication credentials, access logs, etc.")
+
+    Rel(api, db, "Reads & writes to", "JDBC")
+    Rel(wa, api, "Uses", "JSON/HTTPS")
+    Rel(ma, api, "Uses", "JSON/HTTPS")
+}
+
+Rel(rnr, wa, "Uses", "HTTPS")
+Rel(rnr, ma, "Uses", "HTTPS")
+Rel(trn, ma, "Uses", "HTTPS")
 @enduml

@@ -1,5 +1,5 @@
-@startuml context
-!include ../_C4.puml
+@startuml system
+!include ../../C4-PlantUML/C4_Context.puml
 
 LAYOUT_WITH_LEGEND()
 
