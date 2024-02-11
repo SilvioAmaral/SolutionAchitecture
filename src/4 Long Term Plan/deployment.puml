@@ -16,11 +16,11 @@ Deployment_Node(plc, "Cloud", "The cloud provider boundary"){
     Deployment_Node(sn, "Azure Service Fabric", "Azure Service Fabric"){
         Container(svc, "Azure Service Fabric", "Azure Service Fabric", "Hosts the API and background running tasks.")
     }
-    Deployment_Node(db, "Azure MySQL", "Azure MySQL"){
-        Container(svc, "Azure MySQL", "Azure MySQL", "Stores all data of the application except GPS tracking data.")
+    Deployment_Node(db1, "Azure MySQL", "Azure MySQL"){
+        Container(mysql, "Azure MySQL", "Azure MySQL", "Stores all data of the application except GPS tracking data.")
     }
     Deployment_Node(db2, "Azure MongoDB", "Azure MongoDB"){
-        Container(svc, "Azure MySQL", "Azure MongoDB", "Stores GPS tracking data.")
+        Container(mongo, "Azure MySQL", "Azure MongoDB", "Stores GPS tracking data.")
     }
 }
 
@@ -35,13 +35,14 @@ Deployment_Node(comp, "Customer's computer", "MS Windows / Apple macOS / Linux")
 }
 
 Rel(mobile, entra, "Authenticates", "json/HTTPS")
-Rel(browser, web, "Authenticates", "json/HTTPS")
+Rel(browser, entra, "Authenticates", "json/HTTPS")
+Rel(browser, cdn, "Authenticates", "json/HTTPS")
 Rel(mobile, load, "Makes API calls to", "json/HTTPS")
-Rel(browser, web, "Serves", "json/HTTPS")
-Rel(spa, load, "Delivers to the customer's web browser")
+Rel(spa, load, "Serves", "json/HTTPS")
+Rel(mobile, load, "Delivers to the customer's web browser")
 Rel(load, svc, "The services for the running application")
-Rel(svc, db1, "Running data for dashboard", "json/HTTPS")
-Rel(svc, db2, "Write intensive data", "json/HTTPS")
-Rel(db1, db2, "Reads historical tracking data", "JDBC")
+Rel(svc, mysql, "Running data for dashboard", "json/HTTPS")
+Rel(svc, mongo, "Write intensive data", "json/HTTPS")
+Rel(mysql, mongo, "Reads historical tracking data", "JDBC")
 
 @enduml
