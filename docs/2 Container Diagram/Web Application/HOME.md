@@ -1,6 +1,14 @@
+# Web Application
+
+![diagram](container.svg)
+
 **Level 3: Component diagram**
 
-Next you can zoom in and decompose each container further to identify the major structural building blocks and their interactions.
+The current Web Application is written in Java and queries all data from a single MySQL instance. 
+
+This is slowing our application since all reads are competing with the writes.  
+
+<!-- Next you can zoom in and decompose each container further to identify the major structural building blocks and their interactions.
 
 The Component diagram shows how a container is made up of a number of "components", what each of those components are, their responsibilities and the technology/implementation details.
 
@@ -13,4 +21,4 @@ Supporting elements: Containers (within the software system in scope) plus peopl
 
 > Example of included local image
 
-![](2020-01-10-16-21-41.png)
+![](2020-01-10-16-21-41.png) -->

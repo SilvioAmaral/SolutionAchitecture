@@ -1,6 +1,6 @@
 # 1 System Context Diagram
 
-![diagram](overview.svg)
+![diagram](system.svg)
 
 **Level 1: System Context**
 

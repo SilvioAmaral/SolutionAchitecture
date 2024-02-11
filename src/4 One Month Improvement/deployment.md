@@ -1,7 +1,3 @@
-# 4 One Month Improvement
-
-![diagram](deployment.svg)
-
 **One Month Attack Plan**
 
 To improve the user experience for our consumers, we will do the following modifications:

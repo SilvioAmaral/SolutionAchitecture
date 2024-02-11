@@ -1,10 +1,10 @@
 @startuml
-!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+!include ../_C4.puml
 
 LAYOUT_WITH_LEGEND()
 
 Container(spa, "Single Page Application", "javascript and react", "Provides all the internet banking functionality to customers via their web browser.")
-Container(ma, "Mobile App", "Xamarin", "Provides a limited subset ot the internet banking functionality to customers via their mobile mobile device.")
+Container(ma, "Mobile App", "Native", "Provides a limited subset ot the internet banking functionality to customers via their mobile mobile device.")
 Container(db, "Database", "Relational Database Schema", "Stores user registration information, hashed authentication credentials, access logs, etc.")
 System_Ext(mbs, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
 

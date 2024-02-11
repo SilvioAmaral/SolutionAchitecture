@@ -18,8 +18,17 @@ In this document we have devised a one month plan to tackle the three immediate 
 
 - Reduce cost of total cloud account
 
-**Scope**:Our Running application System and their interactions
+**Scope**: Our Running application System and their interactions
 
 **Intended audience**: CEO, CTO, and CFO are the primary audience for this presentation. Eventually it will be extended to the development team in order to provide clarity on the goals to follow ahead.
 
 **Assumptions**: 
+
+- The dev team is capable to work on the code and provide required refactoring. 
+- The devops team is capable to work and manage our cloud provider   
+- No staff change is likely to happen on the suggested time frame.
+- We will utilize a bit over half the IT team separated at 3 teams of 6 devs/devops/qa, for 2 consecutive sprints. 
+
+**Limitations**: We will not be generating components diagrams or code diagrams for this project. Instead we will focus on the Deployment Diagram, which will map our current platform to the physical cloud architecture, which will help us visualize better the high level architectural changes.
+
+**Tools**: This document uses [C4 Diagrams](https://c4model.com/) and Markdown files.
