@@ -20,7 +20,7 @@ Deployment_Node(plc, "Cloud", "The cloud provider boundary"){
         Container(mysql, "Azure MySQL", "Azure MySQL", "Stores all data of the application except GPS tracking data.")
     }
     Deployment_Node(db2, "Azure MongoDB", "Azure MongoDB"){
-        Container(mongo, "Azure MySQL", "Azure MongoDB", "Stores GPS tracking data.")
+        Container(mongo, "Azure MongoDB", "Azure MongoDB", "Stores GPS tracking data.")
     }
 }
 
