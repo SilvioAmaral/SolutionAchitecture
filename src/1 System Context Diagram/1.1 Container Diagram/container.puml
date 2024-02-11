@@ -10,6 +10,7 @@ System_Boundary(bnd, "Running App") {
         Container(web, "Web Application", "java and Spring MVC", "Delivers the static content and single page application.")
         Container(spa, "Single Page Application", "javascript and react", "Provides all the running app functionality to customers via web browser.")
         Container(mob, "Mobile App", "React Native", "Provides the running tracking functionality via their mobile device.")
+        Container(batch, "Batch", "Java", "Batch processing of data overnight.")
     }
 
     System_Boundary(tier2, "Tier2"){
@@ -28,4 +29,5 @@ Rel(rnr, web, "Serves", "HTTPS")
 Rel(rnr, spa, "Uses", "HTTPS")
 Rel(rnr, mob, "Uses", "HTTPS")
 Rel(trn, spa, "Uses", "HTTPS")
+Rel(batch, db, "Processes", "HTTPS")
 @enduml
