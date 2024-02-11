@@ -4,18 +4,38 @@
 LAYOUT_WITH_LEGEND()
 
 Deployment_Node(plc, "Cloud", "The cloud provider boundary"){
-    Deployment_Node(dn, "running-vm1", "16GB Ram - 4Core - Ubuntu 18.04 LTS"){
-        Deployment_Node(apache2, "Apache Tomcat", "Apache Tomcat 8.x"){
-            Container(web, "Web Application", "Java and Spring MVC", "Provides static content and SPA to customer web browser.")
+    Deployment_Node(cdn, "Content Delivery Network", "Will deliver the SPA and static content to the customer's web browser."){
+        Container(web, "Web Application", "Java and Spring MVC", "Provides static content and SPA to customer web browser.")
+    }
+
+    Deployment_Node(load, "Azure Load Balancer", "Apache Tomcat 8.x"){
+        Container(bal, "Load Balancer", "Java and Spring MVC", "Will provide the routing for new VMs that are being scaled up or down.")
+    }
+    
+    Deployment_Node(scale, "Dynamically Scaled VMs"){
+        Deployment_Node(dn1, "api-vm1", "16GB Ram - 4Core - Ubuntu 18.04 LTS"){        
+           Deployment_Node(apache1, "Apache Tomcat", "Apache Tomcat 8.x"){
+                Container(api1, "API", "Java and Spring MVC", "Provides all running app functionality to both Mobile and Web App via a JSON/HTTPS API.")
+            }
+        }
+        Deployment_Node(dn2, "api-vm2", "16GB Ram - 4Core - Ubuntu 18.04 LTS"){        
+            Deployment_Node(apache2, "Apache Tomcat", "Apache Tomcat 8.x"){
+                Container(api2, "API", "Java and Spring MVC", "Provides all running app functionality to both Mobile and Web App via a JSON/HTTPS API.")
+            }
+        }
+        Deployment_Node(dnN, "api-vmN", "16GB Ram - 4Core - Ubuntu 18.04 LTS"){        
+            Deployment_Node(apache3, "Apache Tomcat", "Apache Tomcat 8.x"){
+                Container(api3, "API", "Java and Spring MVC", "Provides all running app functionality to both Mobile and Web App via a JSON/HTTPS API.")
+            }
         }
     }
-    Deployment_Node(lambda, "API", "Serverless on Lambdas"){
-        Container(api, "API Application", "Java Spring Service", "Provides all running app functionality to both Mobile and Web App via a JSON/HTTPS API.")
-    }
-    Deployment_Node(db01, "running-vm2", "200GB Ram - 32Core - Ubuntu 18.04 LTS"){
-        Deployment_Node(mysql, "MySQL", "MySQL 5.7"){
-            ContainerDb(db1, "Database", "Relational Database Schema", "Stores all data of the application except GPS tracking data.")
-            ContainerDb(db2, "Database", "NoSQL Database", "Stores GPS tracking data")
+    
+    Deployment_Node(dbs, "db-vm", "200GB Ram - 32Core - Ubuntu 18.04 LTS"){
+        Deployment_Node(db1, "MySQL", "MySQL 5.7"){
+            ContainerDb(mysql, "Database", "Relational Database Schema", "Stores all data of the application except GPS tracking data.")
+        }
+        Deployment_Node(db2, "MongoDB", "MySQL 5.7"){
+            ContainerDb(mongo, "Database", "NoSQL Database", "Stores GPS tracking data")
         }
     }
 }
@@ -30,11 +50,18 @@ Deployment_Node(comp, "Customer's computer", "MS Windows / Apple macOS / Linux")
     }
 }
 
-Rel(mobile, api, "Makes API calls to", "json/HTTPS")
-Rel(spa, api, "Delivers to the customer's web browser")
+Rel(mobile, load, "Makes API calls to", "json/HTTPS")
+Rel(spa, load, "Delivers to the customer's web browser")
 Rel(browser, web, "Serves", "json/HTTPS")
-Rel(web, db1, "Reads Authentication and plans", "json/HTTPS")
-Rel(api, db1, "Reads all data except", "json/HTTPS")
-Rel(api, db2, "Only writes specific GPS tracking data", "JDBC")
+Rel(load, api1, "Serves", "json/HTTPS")
+Rel(load, api2, "Serves", "json/HTTPS")
+Rel(load, api3, "Serves", "json/HTTPS")
+Rel(api1, db1, "Reads/write data except tracking data", "json/HTTPS")
+Rel(api2, db1, "Reads/write data except tracking data", "json/HTTPS")
+Rel(api3, db1, "Reads/write data except tracking data", "json/HTTPS")
+Rel(api1, db2, "Write tracking data", "json/HTTPS")
+Rel(api2, db2, "Write tracking data", "json/HTTPS")
+Rel(api3, db2, "Write tracking data", "json/HTTPS")
+Rel(db1, db2, "Read historical tracking data", "json/HTTPS")
 
 @enduml

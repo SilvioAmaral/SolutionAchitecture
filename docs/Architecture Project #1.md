@@ -15,17 +15,23 @@
 
 **Project Part 1**
 
-The goal of the running application is to allow users to track their running habits and get motivated by visualizing their progress.
+A small sized company has a running application which allows users to track their running habits and get motivated by visualizing their progress.
 
-Unfortunately, customers have been complaining about some problems, and our business is losing customers to the competition. 
+Unfortunately, customers have been complaining about problems and the business is losing customers to the competition. 
 
-In this document we have devised a one month plan to tackle the three immediate pain points with an improve in our software architecture.
+In this document we have devised a one month plan to tackle the three immediate pain points with an improve in our software architecture. Also , we will suggest a long term plan to have the best possible architecture available for the given requirements.
 
-**Primary Goals**
+**Pain Points**
 
 - the app is not responsive during a run, especially trying to start and stop it
 - some customers mentioned that their runs are disappearing from the web dashboard
 - when customers finish a run, it takes more than one day to view on the dashboard
+
+**Primary Goals**
+
+- make the mobile app more responsive during a run
+- have better data consistency on web dashboard
+- immediately view runs on dashboard after a run ends
 
 **Secondary Goals**
 
@@ -44,10 +50,16 @@ In this document we have devised a one month plan to tackle the three immediate 
 - We will utilize a bit over half the IT team separated at 3 teams of 6 devs/devops/qa, for 2 consecutive sprints. 
 - The allocation of staff is agreed upon and no changes to the plan will be done on the next month
 
-**Limitations**: We will not be generating code diagrams for this project. Instead we will focus on the Deployment Diagram, which will map our current platform to the physical cloud architecture, which will help us visualize better the high level architectural changes.
+**Limitations**: From the 4 suggested diagrams on C$ models, We will not be generating component and code diagrams. Instead we will create System Context and Container diagrams along with Deployment Diagrams , which will map our current platform to the physical cloud architecture, for current setup, one month attack plan and the final solution. This will help us visualize better the high level architectural changes proposed.
 
-**Tools**: This document utilizes [C4 Diagrams](https://c4model.com/) and (Markdown files)[https://www.markdownguide.org/] to generate all the pages using (VSCode)[https://code.visualstudio.com/], the (PlantUML plugin)[https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml] and the (nodejs c4builder project)[https://adrianvlupu.github.io/C4-Builder/#/].
+**Tools**: 
+This document utilizes [Markdown files](https://www.markdownguide.org/) for text notes and [PlantUML](https://plantuml.com/) for diagram generations. 
 
+The diagrams follow the [C4 Diagrams](https://c4model.com/) model of visualization. 
+
+The text editor of choice was [VSCode](https://code.visualstudio.com/) using the [PlantUML plugin](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml) and the [NodeJS c4builder project](https://adrianvlupu.github.io/C4-Builder/#/).
+
+**Github**:https://github.com/SilvioAmaral/SolutionAchitecture
 
 ## 1 System Context Diagram
 
@@ -71,10 +83,28 @@ There are currently one main user and two main components on this application. T
 
 - The second main component is a web dashboard that is designed to give users an overview of their runs and track their progress over time. They can also manage their accounts and purchase advanced plans with live trainer support.
 
-
 **Secondary Elements**
 
-- Trainers are professional runners that provide services guiding our runners into their journey.
+- Trainers are professional runners that provide services guiding our beginner runners into their journey. They are considered External persons to our application, as they connect directly to the customer via external providers (zoom, webex).
+
+**Analysis of problems**
+
+As listed on our overview page, some of the main problems we have are 
+
+- the app is not responsive during a run, especially trying to start and stop it
+
+We can see that the responsiveness of the run is due to the mobile app storing all data points and doing one single POST with all datapoints to the API.
+
+- some customers mentioned that their runs are disappearing from the web dashboard
+
+Due to the amount of data that the mobile app accumulates, sometimes the app crashes or sometimes the upload of data fails silently, therefore never showing on dashboard. 
+
+- when customers finish a run, it takes more than one day to view on the dashboard
+
+The data written on the DB after each run gets processed overnight and its then created on the dashboard part of the application. 
+
+
+**Exclusions**: We will no longer be listing the trainers on our diagrams, as it is not a source of problems and therefore not the main focus of this optimization project.
 
 ## 1.1 Container Diagram
 
@@ -86,15 +116,10 @@ There are currently one main user and two main components on this application. T
 
 **Level 2: Container diagram**
 
-<!-- We now start to break down each individual part of the overview context into containers. -->
+Each part of our application is a two tier app, which means we have a code layer for presentation and one for business logic. Code quality is lower because of this, but this problem will be handled at a separate moment.
 
-Each part of our application is a two tier app, which means we have a code layer for presentation and one for business logic. The presentation layer on mobile is coded on native code and fetches data from the API via RESTful calls. 
+The presentation layer on mobile is coded on react native. The presentation layer on web is coded on React/HTML/CSS and delivered via a web service to the client. Both presentation layers communicate to the API using JSON via RESTful calls over HTTPS. 
 
-The same pattern is observed with our Web Dashboard application, which retrieve data from the API layer and serve the HTML pages to the clients. 
-
-<!-- Once you understand how your system fits in to the overall IT environment, a really useful next step is to zoom-in to the system boundary with a Container diagram. A "container" is something like a server-side web application, single-page application, desktop application, mobile app, database schema, file system, etc. Essentially, a container is a separately runnable/deployable unit (e.g. a separate process space) that executes code or stores data.
-
-The Container diagram shows the high-level shape of the software architecture and how responsibilities are distributed across it. It also shows the major technology choices and how the containers communicate with one another. It's a simple, high-level technology focussed diagram that is useful for software developers and support/operations staff alike. -->
 
 
 ## 2 Current Deployment Diagram
@@ -109,13 +134,15 @@ The Container diagram shows the high-level shape of the software architecture an
 
 This section we view how containers in the static model are mapped to infrastructure. 
 
-Currently we have the mobile app installed on the client directly fetching data from the API server. The installation files are served to the users phone by the respective platform marketplaces.
+Currently we have the mobile app installed on the client directly fetching data from the single API server instance. The executable files are hosted by the respective platform marketplaces.
 
-There are two VM instances of 200GB RAM and 32vCPUs. On the first instance , we have our web server that delivers a SPA app and static content to the web clients. The SPA then runs on the browser and communicates directly to the API. 
+There are two VM instances of 200GB RAM and 32vCPUs. On the first instance , we have:
 
-The API layer is also on the the first VM instance and receives all requests from reads and writes all data to the database. 
+- our web server that delivers a SPA app and static content to the web clients. The SPA then runs on the browser and communicates directly to the API. 
 
-The Database is installed on the second VM and it is a single MySQL database instance that managed by our cloud services provider and we only have read/write access.
+- the API layer is also on the the first VM instance and receives all requests from reads and writes all data to the database. 
+
+The Database is installed on the second VM of the same size , and it runs a single MySQL database instance that is managed by our cloud services provider.
 
 
 ## 3 One Month Plan
@@ -128,28 +155,16 @@ The Database is installed on the second VM and it is a single MySQL database ins
 
 **One Month Attack Plan**
 
-To improve the user experience for our consumers, we will do the following modifications:
+Analyzing our users habits, we can notice that most of them follow conventional running times of early morning and end of day. This is causing our servers to be overloaded at these times and vastly underutilized the rest of the day, specially at night. 
 
-In order to maximize the elasticity of the providers, we will convert all API layer into Functions (lambdas). This will allow us to only use the resources that are actually necessary for each request instead of guessing the size of the VM to host our app. Due to this migration , we will be able to reduce the size of the actual VM Instance 1, since it will only be used to serve static content and the SPA app.
+To improve the user experience for our consumers, we will do the following modifications to our architecture:
 
-Also, for the Vm Instance 2 that hosts our single MySQL database instance, we will create a second instance that will be focused on write only coming from the mobile apps, such as tracking data that is provided on each run. The original MySQL instance will
+In order to maximize the elasticity of the resources, we will add a load balancing layer in front our API services and we will host this services into many more VMs to be able to scale up and down throughout the day. Due to this migration , we will be able to reduce the size of the actual VM Instance 1.
 
-Although it seems that we will be utilizing more of the cloud provider, in fact we will be able to better utilize resources by scaling the app up when we need it most, such as 7AM-8AM, 12PM-01PM, 07PM-08PM, and scale down when there are almost no usage, such as during the night, from 11PM-06AM. Remember that for the time being our customer base is only the USA.
+Also, the mobile app will be modified to send each individual point of the tracking data at a smaller intervals, therefore avoiding large chunks of data coming in at once. Therefore the "STOP RUN" functionality of our app will only carry the overall run directly to the dashboard tables processed at the client mobile phone. 
 
+For the Database server we will create a second Database responsible for write-intensive GPS tracking data that is provided on each run coming from the mobile apps via API. Each run will then have the entry to the overall data on the dashboard tables but if the client want to view the exact tracking of the run it will be linked to this data. This aims to remove the write overhead from the tables that are currently responsible for the tracking data separating it from the read part of the application.
 
-<!-- Currently we have the mobile app installed on the client directly fetching data from the API server. The installation files are served to the users phone by the respective platform marketplaces.
-
-Our web server is already on Azure cloud, and its deployed on a single VM using IIS as a web server. The code also fetches data from the API layer. 
-
-The API layer reads and writes all data from a single instance MySQL server. We will  -->
-
-<!-- A deployment diagram allows you to illustrate how containers in the static model are mapped to infrastructure. This deployment diagram is based upon a UML deployment diagram, although simplified slightly to show the mapping between containers and deployment nodes. A deployment node is something like physical infrastructure (e.g. a physical server or device), virtualised infrastructure (e.g. IaaS, PaaS, a virtual machine), containerised infrastructure (e.g. a Docker container), an execution environment (e.g. a database server, Java EE web/application server, Microsoft IIS), etc. Deployment nodes can be nested.
-
-**Scope**: A single software system.
-
-**Primary elements**: Deployment nodes and containers within the software system in scope.
-
-**Intended audience**: Technical people inside and outside of the software development team; including software architects, developers and operations/support staff. -->
 
 ## 4 Long Term Plan
 
@@ -159,20 +174,12 @@ The API layer reads and writes all data from a single instance MySQL server. We 
 
 ![diagram](deployment.svg)
 
-**Deployment diagram**
+**One Month Attack Plan**
 
-This section we view how containers in the static model are mapped to infrastructure. 
+Having solved the most immediate problems and having more time to work, we can actually fine tune this architecture and utilize more of the cloud resources. 
 
-Currently we have the mobile app installed on the client directly fetching data from the API server. The installation files are served to the users phone by the respective platform marketplaces.
+In order to maximize the elasticity of the resources, scaling up at peak hours and scaling down at night, we will convert all API layer into lambda functions. Due to this migration , we will be able to reduce the size of the actual VM Instance 1, since it will only be used to serve static content and the SPA app.
 
-Our web server is already on Azure cloud, and its deployed on a single VM using IIS as a web server. The code also fetches data from the API layer. 
+Also, the mobile app will be modified to send each individual point of the tracking data at a smaller interval, therefore avoiding large chunks of data coming in at once. Therefore the "STOP RUN" functionality of our app will only carry the overall run directly to the dashboard tables. 
 
-The API layer reads and writes all data from a single instance MySQL server. 
-
-A deployment diagram allows you to illustrate how containers in the static model are mapped to infrastructure. This deployment diagram is based upon a UML deployment diagram, although simplified slightly to show the mapping between containers and deployment nodes. A deployment node is something like physical infrastructure (e.g. a physical server or device), virtualised infrastructure (e.g. IaaS, PaaS, a virtual machine), containerised infrastructure (e.g. a Docker container), an execution environment (e.g. a database server, Java EE web/application server, Microsoft IIS), etc. Deployment nodes can be nested.
-
-**Scope**: A single software system.
-
-**Primary elements**: Deployment nodes and containers within the software system in scope.
-
-**Intended audience**: Technical people inside and outside of the software development team; including software architects, developers and operations/support staff.
+For the Database server we will create a second Database responsible for write-intensive GPS tracking data that is provided on each run coming from the mobile apps via API. This aims to remove the load from the tables that are currently responsible for read operations of dashboard data.
