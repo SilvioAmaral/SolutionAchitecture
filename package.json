@@ -1,0 +1,23 @@
+{
+  "name": "solutionachitecture",
+  "version": "1.0.0",
+  "description": "A homework project for the Solutions Architecture class",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "prestart": "rimraf docs",
+    "start": "c4builder"
+  },
+  "author": "Silvio Silva",
+  "license": "ISC",
+  "dependencies": {
+    "c4builder": "0.2.16"
+  },
+  "devDependencies": {
+    "@actions/github": "^6.0.0",
+    "@actions/core": "^1.10.1",
+    "rimraf": "5.0.5"
+  }
+}

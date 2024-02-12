@@ -3,3 +3,4 @@ bkp/
 .vscode/
 docs_bk/
 out/
+node_modules
