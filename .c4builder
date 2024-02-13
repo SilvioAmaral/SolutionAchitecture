@@ -14,7 +14,7 @@
 	"repoUrl": "",
 	"docsifyTemplate": "",
 	"webPort": "3000",
-	"pdfCss": ".\\node_modules\\c4builder\\pdf.css",
+	"pdfCss": "https://raw.githubusercontent.com/adrianvlupu/C4-Builder/master/pdf.css",
 	"includeBreadcrumbs": true,
 	"includeLinkToDiagram": false,
 	"diagramsOnTop": true,
