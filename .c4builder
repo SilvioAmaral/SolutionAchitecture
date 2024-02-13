@@ -14,7 +14,7 @@
 	"repoUrl": "",
 	"docsifyTemplate": "",
 	"webPort": "3000",
-	"pdfCss": "C:\\Users\\silvi\\AppData\\Roaming\\npm\\node_modules\\c4builder\\pdf.css",
+	"pdfCss": ".\\node_modules\\c4builder\\pdf.css",
 	"includeBreadcrumbs": true,
 	"includeLinkToDiagram": false,
 	"diagramsOnTop": true,
