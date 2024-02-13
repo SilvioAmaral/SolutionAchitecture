@@ -48,3 +48,4 @@ The text editor of choice was [VSCode](https://code.visualstudio.com/) using the
 
 **Github**:https://github.com/SilvioAmaral/SolutionAchitecture
 
+trigger 1
