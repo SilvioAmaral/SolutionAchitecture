@@ -30,10 +30,10 @@ jobs:
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
 
-    - name: Commit and Push docs folder
-      run: |
-        git add docs
-        git commit -m "Update docs folder" || echo "No changes to commit"
-        git push origin main
-      env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+    # - name: Commit and Push docs folder
+    #   run: |
+    #     git add docs
+    #     git commit -m "Update docs folder" || echo "No changes to commit"
+    #     git push origin main
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
