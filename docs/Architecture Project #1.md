@@ -66,7 +66,7 @@ trigger 1
 
 ## 1 System Context Diagram
 
-`/1 System Context Diagram`
+`\1 System Context Diagram`
 
 [Overview: Running App](#Architecture-Project-#1)
 
@@ -109,7 +109,7 @@ Let's consider for this scenario that the data written on the DB after each run 
 
 ## 1.1 Container Diagram
 
-`/1 System Context Diagram/1.1 Container Diagram`
+`\1 System Context Diagram\1.1 Container Diagram`
 
 [Overview: Running App](#Architecture-Project-#1)
 
@@ -125,7 +125,7 @@ The presentation layer on mobile is coded on react native. The presentation laye
 
 ## 2 Current Deployment Diagram
 
-`/2 Current Deployment Diagram`
+`\2 Current Deployment Diagram`
 
 [Overview: Running App](#Architecture-Project-#1)
 
@@ -149,7 +149,7 @@ The Database is installed on the second VM of the same size , and it runs a sing
 
 ## 3 One Month Plan
 
-`/3 One Month Plan`
+`\3 One Month Plan`
 
 [Overview: Running App](#Architecture-Project-#1)
 
@@ -191,7 +191,7 @@ By adding a load balancer and distributing the service layer we are now able to 
 
 ## 4 Long Term Plan
 
-`/4 Long Term Plan`
+`\4 Long Term Plan`
 
 [Overview: Running App](#Architecture-Project-#1)
 
